@@ -8,5 +8,8 @@ I dati infatti non li prendiamo più dall'HTML ma li creiamo e gestiamo noi. Poi
 
 // INSTANZIAMENTO DI VUE:
 new Vue({
- el: '#root'
+ el: '#root',
+ data: {
+   message : 'HELLO!'
+ }
 });
