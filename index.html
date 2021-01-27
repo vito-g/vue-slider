@@ -37,7 +37,7 @@
           {{message}}
           <div>
             <button @click="prev">prev</button>
-              <img :src="images[imgIndex]" alt="">
+              <img v-bind:style="{width: imgWidth}" :src="images[imgIndex]" alt="">
             <button @click="next">next</button>
           </div>
         </div>
