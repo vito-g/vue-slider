@@ -13,3 +13,5 @@ new Vue({
    message : 'HELLO!'
  }
 });
+
+Vue.config.devtools = true;
