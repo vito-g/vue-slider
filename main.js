@@ -26,7 +26,7 @@ new Vue({
   },
   prev: function() {
   this.imgIndex -= 1;
-  if (this.imgIndex > (this.images.length < 0)) {
+  if (this.imgIndex < 0) {
     this.imgIndex = this.images.length - 1;
   }
   }
