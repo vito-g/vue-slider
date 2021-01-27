@@ -20,9 +20,15 @@ new Vue({
   methods : {
   next: function() {
   this.imgIndex += 1;
+  if (this.imgIndex > (this.images.length - 1)) {
+    this.imgIndex = 0;
+  }
   },
   prev: function() {
   this.imgIndex -= 1;
+  if (this.imgIndex > (this.images.length < 0)) {
+    this.imgIndex = this.images.length - 1;
+  }
   }
 }
 });
