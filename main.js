@@ -10,13 +10,6 @@ I dati infatti non li prendiamo più dall'HTML ma li creiamo e gestiamo noi. Poi
 new Vue({
  el: '#root',
  data: {
-     message : 'HELLO!',
-     people: [
-      'gianpaolo',
-      'giuseppe',
-      'teresa',
-      'davide'
-      ],
     imgIndex: 0,
     images : [
       'https://images.pexels.com/photos/371633/pexels-photo-371633.jpeg?cs=srgb&dl=clouds-country-daylight-371633.jpg&fm=jpg',
