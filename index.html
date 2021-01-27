@@ -33,14 +33,18 @@
             </div>
         </div> -->
         <!-- CONTAINER di Visualizzazione di Vue -->
-        <div id="root">
+      <div id="root">
           {{message}}
-          <div>
+        <div class="container">
+          <div class="slider-wrapper">
             <button @click="prev">prev</button>
+            <div class="images">
               <img v-bind:style="{width: imgWidth}" :src="images[imgIndex]" alt="">
+            </div>
             <button @click="next">next</button>
           </div>
         </div>
+      </div>
         <!-- END CONTAINER di Visualizzazione di Vue -->
 
         <script src="main.js"></script>
